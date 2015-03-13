@@ -2,6 +2,19 @@ html{
   box-sizing: border-box;
   font-family:Merriweather, serif;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header{
+    background-color: #e7001d;
+    text-align: center;
+    display: block;
+    padding: 1em 0em 2em 0em;
+    margin: 0;
+}
+
+h1 {
+     color: white;
 }
