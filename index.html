@@ -1,76 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>dsn167-project-2</title>
-  <link href="css/main.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,intial-scale=1">
-  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-</head>
-<body>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Chinese Zodiac</title>
+		<link href="css/main.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 
-  <header id="foo">
-    <img class="medallion" src="images/medallion.svg" alt="">
-    <h1>生肖</h1>
-    <p class="zodiac">Chinese Zodiac</p>
-  </header>
-    <nav>
-      <ul class="nav">
-        <li><a href="#dra">龍 — Dragon</a></li>
-        <li><a href="#goa">羊 — Goat</a></li>
-        <li><a href="#roo">雞 — Rooster</a></li>
-        <li><a href="#ox">牛 — Ox</a></li>
-      </ul>
-    </nav>
+	</head>
 
-  <img class="shen" src="images/banner.jpg">
+	<body>
 
-  <h2><i>Shēngxiào</i></h2>
+  	<header>
 
-  <p>The <i>Shēngxiào</i> literally “birth likeness”, is a scheme and systematic plan of future action that relates each year to an animal and its reputed attributes according to a 12-year mathematical cycle and it remains popular in several East Asian countries including China, Vietnam, Korea, Japan, and Thailand.</p>
+    	<img src="images/medallion.svg" alt="medallion">
+			   <h1 id="top">生肖</h1>
+			      <p>Chinese Zodiac</p>
 
-    <div>
-      <h3 id="dra">Dragon</h3>
+  	</header>
 
-      <img class="sym" src="images/dragon-symbol.svg" alt="">
+		<main>
 
-      <img class="img" src="images/dragon.svg" alt="">
+			<nav>
 
-      <p class= "cap"><i>Magnanimous, stately, vigorous, strong, proud, noble, direct, dignified, passionate.</i></p>
+				<ol>
+					<li><a href="#dragon">龍 — Dragon</a></li>
+					<li><a href="#goat">羊 — Goat</a></li>
+					<li><a href="#rooster">雞 — Rooster</a></li>
+					<li><a href="#ox">牛 — Ox</a></li>
+				</ol>
 
-    </div>
+			</nav>
 
-    <div class="goat">
-      <h3 id="goa" class="h3w">Goat</h3>
+			<div class="banner">
+				<img src="images/banner.jpg" alt="">
+				<h1>Shēngxiào</h1>
+			</div>
+			<p>The <i>Shēngxiào</i> literally “birth likeness”, is a scheme and systematic plan of future action that relates each year to an animal and its reputed attributes according to a 12-year mathematical cycle and it remains popular in several East Asian countries including China, Vietnam, Korea, Japan, and Thailand.</p>
 
-      <img class="sym" src="images/goat-symbol.svg" alt="">
+  		<div id="dragon" class="dragon">
+				<h3>Dragon</h3>
+				    <img src="images/dragon-symbol.svg" alt="The chinese symbol for dragon">
+				    <img src="images/dragon.svg" alt="the dragon talisman">
+				<p>Magnanimous, stately, vigorous, strong, proud, noble, direct, dignified, passionate.</p>
+			</div>
 
-      <img class="img" src="images/goat.svg" alt="">
 
-      <p class= "capw"><i>Gentle, softhearted, considerate, attractive, hardworking, persistent, thrift.</i></p>
+  		<div id="goat" class="goat">
+				<h3>Goat</h3>
+				    <img src="images/goat.svg" alt="the goat talisman">
+				    <img src="images/goat-symbol.svg" alt="The chinese symbol for goat">
+				<p>Gentle, softhearted, considerate, attractive, hardworking, persistent, thrift.</p>
+			</div>
 
-    </div>
 
-    <div class="roo">
-      <h3 id="roo" class="h3w">Rooster</h3>
+    	<div id="rooster" class="rooster">
+				<h3>Rooster</h3>
+				    <img src="images/rooster-symbol.svg" alt="The chinese symbol for rooster">
+				    <img src="images/rooster.svg" alt="the rooster talisman">
+				<p>Deep thinkers, honest, bright, communicative, ambitious, capable, warm-hearted.</p>
+			</div>
 
-      <img class="sym" src="images/rooster-symbol.svg" alt="">
 
-      <img class="img" src="images/rooster.svg" alt="">
+    	<div id="ox" class="ox">
+				<h3>Ox</h3>
+				    <img class="ox" src="images/ox.svg" alt="the ox talisman">
+				    <img class="ox-symbol" src="images/ox-symbol.svg" alt="The chinese symbol for ox">
+				<p>Persistent, simple, honest, straightforward, industrious, patient, cautious.</p>
 
-      <p class= "capw"><i>Deep thinkers, honest, bright, communicative, ambitious, capable, warm-hearted.</i></p>
 
-    </div>
+    	</div>
 
-    <div class="ox">
-      <h3 id="ox">Ox</h3>
+  	</main>
 
-      <img class="sym" src="images/ox-symbol.svg" alt="">
+    	<footer>
+  			<a href="#top">Back to top</a>
+  		</footer>
 
-      <img class="img" src="images/ox.svg" alt="">
-
-      <p class= "cap"><i>Persistent, simple, honest, straightforward, industrious, patient, cautious.</i></p>
-    </div>
-
-  <footer><a href="#foo">Back to the Top</footer>
-  </html>
+  </body>
+</html>
